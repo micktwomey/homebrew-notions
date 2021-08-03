@@ -1,11 +1,12 @@
 # homebrew notions
-Homebrew tap for notions
+
+Homebrew tap for [notions](https://github.com/micktwomey/notions).
 
 ## How do I install these formulae?
 
-`brew install micktwomey/notions/<formula>`
+`brew install micktwomey/notions/notions`
 
-Or `brew tap micktwomey/notions` and then `brew install <formula>`.
+Or `brew tap micktwomey/notions` and then `brew install notions`.
 
 ## Documentation
 
