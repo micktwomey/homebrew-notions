@@ -2,20 +2,20 @@ class Notions < Formula
   include Language::Python::Virtualenv
   desc "Command-line client for Notion"
   homepage "https://github.com/micktwomey/notions"
-  url "https://files.pythonhosted.org/packages/17/b0/65f8d737a7aebc12ca4128bf6cbc0f312ff2d0c23a188da2af8411b56f1f/notions-0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "19fd7160398d3eff2611f1e41ddf6c56d19804e611e7163f07171190d96dabfa"
+  url "https://files.pythonhosted.org/packages/4d/72/f3a4185ab6ba7c4a3754ad9b5cc0312ef0d56d3c6474bb3c92564df02dd8/notions-0.3.0.tar.gz"
+  sha256 "9801f29ce78d1f91eb2e3d9a79bc03591c807ae467b3562798ca465f61cadb72"
+  version "0.3.0"
 
   depends_on "python"
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/58/92/29df8cc2d38a54c1db0074bc745109b30edbcccf3ebac7c3c82c63cd692c/anyio-3.3.0.tar.gz"
-    sha256 "ae57a67583e5ff8b4af47666ff5651c3732d45fd26c929253748e796af860374"
+    url "https://files.pythonhosted.org/packages/4f/d0/b957c0679a9bd0ed334e2e584102f077c3e703f83d099464c3d9569b7c8a/anyio-3.5.0.tar.gz"
+    sha256 "a0aeffe2fb1fdf374a8e4b471444f0f3ac4fb9f5a5b542b48824475e0042a5a6"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/6d/78/f8db8d57f520a54f0b8a438319c342c61c22759d8f9a1cd2e2180b5e5ea9/certifi-2021.5.30.tar.gz"
-    sha256 "2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee"
+    url "https://files.pythonhosted.org/packages/6c/ae/d26450834f0acc9e3d1f74508da6df1551ceab6c2ce0766a593362d6d57f/certifi-2021.10.8.tar.gz"
+    sha256 "78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"
   end
 
   resource "click" do
@@ -29,8 +29,8 @@ class Notions < Formula
   end
 
   resource "furl" do
-    url "https://files.pythonhosted.org/packages/76/72/87c701c35700603742b09567ca701bb51715eb3d201a99b19285cb14856c/furl-2.1.2.tar.gz"
-    sha256 "f7dba33eafbee7dbc83963534b25e72f816cced48ac53191ee60bfcc62933918"
+    url "https://files.pythonhosted.org/packages/2a/0a/31a43d63d25f045b88fe7d3267e9ec3ce3820572205a9342c1cdf2ad2ca3/furl-2.1.3.tar.gz"
+    sha256 "5a6188fe2666c484a12159c18be97a1977a71d632ef5bb867ef15f54af39cc4e"
   end
 
   resource "h11" do
@@ -39,8 +39,8 @@ class Notions < Formula
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/41/08/f5f998964b4c60944ae1aad4b0d377d76c4c564c689ac780cfe3c88a46e6/httpcore-0.13.6.tar.gz"
-    sha256 "b0d16f0012ec88d8cc848f5a55f8a03158405f4bca02ee49bc4ca2c1fda49f3e"
+    url "https://files.pythonhosted.org/packages/6a/90/334411fe5455d30498add7d77a8bf4833bfc4671289a954fb2fd43795338/httpcore-0.13.7.tar.gz"
+    sha256 "036f960468759e633574d7c121afba48af6419615d36ab8ede979f1ad6276fa3"
   end
 
   resource "httpx" do
@@ -49,13 +49,13 @@ class Notions < Formula
   end
 
   resource "humanfriendly" do
-    url "https://files.pythonhosted.org/packages/24/ca/f3a75b50d978872f6551d72c9c76890d68c84f3ba210cdba5f409587a2fc/humanfriendly-9.2.tar.gz"
-    sha256 "f7dba53ac7935fd0b4a2fc9a29e316ddd9ea135fb3052d3d0279d10c18ff9c48"
+    url "https://files.pythonhosted.org/packages/cc/3f/2c29224acb2e2df4d2046e4c73ee2662023c58ff5b113c4c1adac0886c43/humanfriendly-10.0.tar.gz"
+    sha256 "6b0b831ce8f15f7300721aa49829fc4e83921a9a301cc7f606be6686a2288ddc"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/cb/38/4c4d00ddfa48abe616d7e572e02a04273603db446975ab46bbcd36552005/idna-3.2.tar.gz"
-    sha256 "467fbad99067910785144ce333826c71fb0e63a425657295239737f7ecd125f3"
+    url "https://files.pythonhosted.org/packages/62/08/e3fc7c8161090f742f504f40b1bccbfc544d4a4e09eb774bf40aafce5436/idna-3.3.tar.gz"
+    sha256 "9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
   end
 
   resource "orderedmultidict" do
@@ -64,8 +64,8 @@ class Notions < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/b9/d2/12a808613937a6b98cd50d6467352f01322dc0d8ca9fb5b94441625d6684/pydantic-1.8.2.tar.gz"
-    sha256 "26464e57ccaafe72b7ad156fdaa4e9b9ef051f69e175dbbb463283000c05ab7b"
+    url "https://files.pythonhosted.org/packages/60/a3/23a8a9378ff06853bda6527a39fe317b088d760adf41cf70fc0f6110e485/pydantic-1.9.0.tar.gz"
+    sha256 "742645059757a56ecd886faf4ed2441b9c0cd406079c2b4bee51bcc3fbcd510a"
   end
 
   resource "PyYAML" do
@@ -94,18 +94,18 @@ class Notions < Formula
   end
 
   resource "types-PyYAML" do
-    url "https://files.pythonhosted.org/packages/c1/6a/76f047f9289ed40b8a6460ae9900deec9aa85b9e1276da24112ce8fc9a7b/types-PyYAML-5.4.3.tar.gz"
-    sha256 "2e7b81b2b7af751634425107b986086c6ba7cb61270a43a5c290c58be8cdbc3a"
+    url "https://files.pythonhosted.org/packages/c2/65/ff51345ff17429c970e7da1485e7c43b873ffad26530361ebf2415903317/types-PyYAML-5.4.12.tar.gz"
+    sha256 "3f4daa754357491625ae8c3a39c9e1b0d7cd5632bc4e1c35e7a7f75a64aa124b"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/aa/55/62e2d4934c282a60b4243a950c9dbfa01ae7cac0e8d6c0b5315b87432c81/typing_extensions-3.10.0.0.tar.gz"
-    sha256 "50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342"
+    url "https://files.pythonhosted.org/packages/fe/71/1df93bd59163c8084d812d166c907639646e8aac72886d563851b966bf18/typing_extensions-4.2.0.tar.gz"
+    sha256 "f1c24655a0da0d1b67f07e17a5e6b2a105894e6824b92096378bb3668ef02376"
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3")
-    venv.pip_install resources
-    venv.pip_install_and_link buildpath
+    # ENV.deparallelize  # if your formula fails when building in parallel
+    virtualenv_install_with_resources
   end
+
 end
