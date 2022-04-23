@@ -3,8 +3,8 @@ class Notions < Formula
   desc "Command-line client for Notion"
   homepage "https://github.com/micktwomey/notions"
   url "https://files.pythonhosted.org/packages/4d/72/f3a4185ab6ba7c4a3754ad9b5cc0312ef0d56d3c6474bb3c92564df02dd8/notions-0.3.0.tar.gz"
-  sha256 "9801f29ce78d1f91eb2e3d9a79bc03591c807ae467b3562798ca465f61cadb72"
   version "0.3.0"
+  sha256 "9801f29ce78d1f91eb2e3d9a79bc03591c807ae467b3562798ca465f61cadb72"
 
   depends_on "python"
 
@@ -104,7 +104,6 @@ class Notions < Formula
   end
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
     virtualenv_install_with_resources
   end
 
